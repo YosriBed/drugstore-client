@@ -1,0 +1,5 @@
+tailwind.config.js
+node_modules
+public
+yarn.lock
+.gitignore
