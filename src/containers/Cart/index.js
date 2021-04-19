@@ -40,7 +40,7 @@ const index = () => {
 			<div className="container px-5  mx-auto">
 				<div className="flex flex-col text-center w-full mb-12">
 					<h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">
-							${cart.map(({price})=> price).reduce((prev,curr)=> prev+curr)}
+							${cart.map(({price})=> price).reduce((prev,curr)=> prev+curr, 0)}
 					</h1>
 					<p className="lg:w-2/3 mx-auto leading-relaxed text-base">
 						Confirm your order by filling out this form
